@@ -1,0 +1,41 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Pinpoint",
+            "Effect": "Allow",
+            "Action": [
+                "mobiletargeting:GetUserEndpoints",
+                "mobiletargeting:PutEvents",
+                "mobiletargeting:GetApp",
+                "mobiletargeting:UpdateEndpointsBatch",
+                "mobiletargeting:GetApps",
+                "mobiletargeting:GetEndpoint",
+                "mobiletargeting:GetApplicationSettings",
+                "mobiletargeting:UpdateEndpoint",
+                "mobiletargeting:SendUsersMessages"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "Personalize",
+            "Effect": "Allow",
+            "Action": [
+                "personalize:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Logs",
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents",
+                "logs:CreateLogGroup"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+/*This document contains the styles that use the app. You can change these as you wish.*/
+
+.amazon-app {
+    background-color: #F8F9F9
+}
+
+.body {
+    margin-left: 35rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    background-color: #F8F9F9;
+}
+
+.title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 120px;
+    width: 100%;
+    margin-left: 35rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+    background-color: #09061C;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 35rem;
+    padding: 2rem 1rem;
+    background-color: #02010C; 
+}
